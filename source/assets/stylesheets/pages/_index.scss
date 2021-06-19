@@ -1,0 +1,16 @@
+// Import page-specific CSS files here.
+@import "home";
+@import "intro";
+@import "pm_projects";
+@import "web_projects";
+@import "contact";
+
+body {
+  background: linear-gradient(rgba(151,216,196,1) 0%, rgba(107,154,196,0.9262079831932774) 75%, rgba(64,89,173,1) 100%);
+  h1, h2, h3 {
+    font-family: 'Bilbo', cursive;
+  }
+  p a {
+    font-family: 'Quicksand', sans-serif;
+  }
+}

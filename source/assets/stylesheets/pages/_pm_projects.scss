@@ -1,0 +1,22 @@
+.pm_projects {
+  height: 100vh;
+}
+
+.pm_projects_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  background-color: rgba(221,227,225,0.01);
+}
+
+.pm_project_card {
+  background: linear-gradient(rgba(251,226,178,0.9) 0%, rgba(224,185,66,0.9262079831932774) 75%, rgba(248,203,57,1) 100%);
+  padding: 8px;
+  margin: 8px;
+  border-radius: 12px;
+  box-shadow: 0 0 1px 0.1px;
+  img {
+    height: 100px;
+  }
+
+}

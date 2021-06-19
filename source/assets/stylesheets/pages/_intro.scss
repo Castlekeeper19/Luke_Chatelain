@@ -1,0 +1,23 @@
+.intro {
+  height: 100vh;
+}
+
+.intro_card {
+  background-color: #DDE3E1;
+  height: 50%;
+  width: 40%;
+  padding: 12px;
+  margin: auto;
+  display: flex;
+  border-radius: 50%;
+}
+
+svg {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      line {
+         stroke: #e2e2e2;
+         stroke-width: 1;
+      }
+   }
