@@ -1,47 +1,74 @@
- <div class="container mt-3">
-    <svg>
-      <line x1='0' y1='100%' x2='100%' y2='0' />
-    </svg>
-  <div class="row justify-content-center">
-    <div class="col">
-      <div class="intro">
-        <div class="intro_card">
-          <h1>Luke Jens Chatelain</h1>
-          <p>A globally tested project manager and web developer serving in countries such as Japan, Thailand, Vietnam, Australia and the United Kingdom on projects utilizing traditional and agile methodologies.</p>
-        </div>
 
-      </div>
-      <div class ="pm_projects">
-        <h1> My Projects</h1>
-        <div class="pm_projects_cards container">
-          <% data.products.each do |p| %>
-            <div class=" pm_project_card">
-              <h3><%= p.name %></h3>
-              <%= image_tag p.image , alt: "alttext" %>
-              <p> <%= p.start %> - <%= p.end %>  </p>
-              <p> <%= p.location %>  </p>
-              <p> <%= p.description %>  </p>
 
-            </div>
-          <% end %>
-        </div>
-      </div>
-      <div class="web_projects">
-        <h1>My Web Projects</h1>
-        <div class="pm_projects_cards">
-          <% data.web.each do |w| %>
-            <div class=" pm_project_card">
-              <h3><%= w.name %></h3>
-              <p> <%= w.start %>  </p>
-              <p> <%= w.end %>  </p>
-            </div>
-          <% end %>
-        </div>
-      </div>
-      <div class="contact">
-        <h1>Contact me</h1>
-
+    <div class="nav-container">
+      <header>
+        <a href="" class="logo"> Luke Chatelain</a>
+        <nav>
+          <ul>
+            <li> <a href="#">My Work</a>  </li>
+            <li> <a href="#">My Skills</a>  </li>
+            <li> <a href="#">Hire Me</a>  </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="social-header">
+        <ul>
+          <li> <a href="#"> <i class="fab fa-github"></i>  </a> </li>
+          <li> <a href="#"> <i class="fab fa-facebook"></i> </a> </li>
+          <li> <a href="#">  <i class="fab fa-linkedin"></i></a> </li>
+        </ul>
       </div>
     </div>
-  </div>
-</div>
+
+    <div class="hero">
+      <div class="content">
+      <h1>Beautifully Crafted Web Experiences</h1>
+      <div class="neat">
+        <span></span>
+        <p>Meet Luke Chatelain</p>
+      </div>
+        <%= image_tag "Bangkok.jpg", alt: "alttext" %>
+      </div>
+    </div>
+
+    <div class="featured">
+      <div class="left">
+        <div class="inner transition2">
+          <p class="subtitle">Featured Project</p>
+          <a href="#"> <h1> Design Course</h1></a>
+          <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, hic?</p>
+        </div>
+        <div class="right">
+          <%= image_tag "Bangkok.jpg", alt: "alttext" %>
+        </div>
+      </div>
+    </div>
+
+    <div class="skills">
+      <div class="skills-container">
+        <ul>
+          <li class="transition2">
+            <div class="icon-container one">
+             <%= image_tag "sakura.jpg", alt: "alttext" %>
+            </div>
+            <p class="skill-title">  UI Ux Design</p>
+            <p class="skill-desc">  UI Ui Design</p>
+          </li>
+          <li class="transition2">
+            <div class="icon-container one">
+             <%= image_tag "sakura.jpg", alt: "alttext" %>
+            </div>
+            <p class="skill-title">  UI Ux Design</p>
+            <p class="skill-desc">  UI Ui Design</p>
+          </li>
+          <li class="transition2">
+            <div class="icon-container one">
+             <%= image_tag "sakura.jpg", alt: "alttext" %>
+            </div>
+            <p class="skill-title">  UI Ux Design</p>
+            <p class="skill-desc">  UI Ui Design</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
