@@ -75,6 +75,13 @@ header {
     margin-top: 2em;
 }
 
+.portrait {
+  height: 25em;
+  width: 25em;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 section {
     padding: 4em 2em;
     text-align: center;
@@ -137,13 +144,27 @@ section {
         margin: 0 auto;
 
         &.one {
-            width: 50px;
+            width: 200px;
+            img {
+              width: 200px;
+              margin-bottom: 24px;
+
+            }
         }
         &.two {
-            width: 100px;
+            width: 200px;
+          img {
+            width: 200px;
+            margin-bottom: 24px;
+
+          }
         }
         &.three {
-            width: 60px;
+            width: 200px;
+             img {
+            width: 200px;
+
+          }
         }
     }
 
@@ -154,6 +175,8 @@ section {
         margin-bottom: 2em;
     }
 }
+
+
 
 .portfolio {
     background: #F7F7F7;

@@ -21,20 +21,11 @@
 
     <div class="hero">
         <div class="content">
-            <h1 class="stagger1">Beautifully Crafted Web Experiences</h1>
+            <h1 class="stagger1">Project Manager <br>Full Stack Engineer</h1>
             <div class="meet stagger1">
-                <span>👇</span>
-                <p>Meet Gary Simon</p>
+                <p>Luke Chatelain</p>
             </div>
-            <svg class="scroll stagger1" width="40" height="77" viewBox="0 0 40 77">
-                <g id="scroll" transform="translate(-253 -787)">
-                  <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" stroke-width="4">
-                    <rect width="40" height="77" rx="20" stroke="none"/>
-                    <rect x="2" y="2" width="36" height="73" rx="18" fill="none"/>
-                  </g>
-                  <circle class="circle" id="Ellipse_1" data-name="Ellipse 1" cx="11" cy="11" r="11" transform="translate(262 798)" fill="#fff"/>
-                </g>
-              </svg>
+            <%= image_tag "long_bien.jpg", alt: "alttext", class: "portrait" %>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" class="hero-design" width="686" height="688" viewBox="0 0 686 688">
             <g id="blockdesign" transform="translate(-935 -289)">
@@ -53,10 +44,10 @@
     <section class="featured">
         <div class="left">
             <div class="inner transition2">
-                <p class="subtitle">Featured Project</p>
+                <p class="subtitle">About Luke</p>
                 <a href="#" class="featured-title">DesignCourse.com ReDesign</a>
 
-                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque molestiae, soluta autem nemo quae delectus quas? Excepturi.</p>
+                <p class="featured-desc">A globally tested project manager and web developer serving in countries such as Japan, Thailand, Vietnam, Australia and the United Kingdom on projects utilizing traditional and agile methodologies. I now hope to take the skills I've acquired and apply them to the IT field in Japan.</p>
             </div>
         </div>
         <%= image_tag "Bangkok.jpg", alt: "alttext", class:"right transition2" %>
@@ -70,11 +61,10 @@
             <ul>
                 <li class="transition2">
                     <div class="icon-container one">
-                        <%= image_tag "kyoro.png", alt: "Kilt" %>
+                        <%= image_tag "kyoro.png", alt: "kyoro" %>
                     </div>
                     <h3 class="skill-title">Kyoro</h3>
-                    <p class="featured-desc skill-desc">Kyoro is a tool that helps managers keep track of their team's engagement level and mental health (individual as well as overall) thanks to Slack integration and feedback analysis, so that they can react quickly and meet their team's needs. Much needed in the era of remote work.
-
+                    <p class="featured-desc skill-desc">Kyoro is a tool that helps managers keep track of their team's engagement level using Slack integration and feedback analysis, so that they can react quickly and meet their team's needs.
 Built by a team of 4 developers during a 10-day product sprint.</p>
                 </li>
                 <li class="transition2">
@@ -102,13 +92,13 @@ Built by a team of 4 developers during a 5-day product sprint.</p>
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
-                    <p class="subtitle">Australia & the United Kingdom</p>
+                    <p class="subtitle">Australia</p>
 
-                    <p class="featured-title">Graham Tour Australia & UK</p>
-                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint, molestias qui nihil accusamus praesentium vel tenetur quisquam quas rem.</p>
+                    <a href="https://billygraham.org.au/photos-graham-tour-in-perth/"><p class="featured-title">Graham Tour Australia</p></a>
+                    <p class="featured-desc">After 16 days in six cities, the Graham Tour concluded in Sydney, Australia, on Feb. 24. The 6,800 people who gathered for the final event contributed to a total of more than 59,000 who heard Franklin Graham share the Gospel in this massive country.</p>
                 </div>
             </div>
-            <a href="#"> <%= image_tag "Perth.jpg", alt: "alttext" %>  </a>
+            <a href="https://billygraham.org.au/photos-graham-tour-in-perth/"> <%= image_tag "Perth.jpg", alt: "alttext" %>  </a>
         </div>
 
         <div class="portfolio-container transition3">
@@ -116,11 +106,11 @@ Built by a team of 4 developers during a 5-day product sprint.</p>
                 <div class="inner">
                     <p class="subtitle">Bangkok, Thailand</p>
 
-                    <p class="featured-title">Bangkok Celebration of Hope</p>
-                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint, molestias qui nihil accusamus praesentium vel tenetur quisquam quas rem.</p>
+                    <a href="https://decisionmagazine.com/bangkok-thailand-churches-unite-for-the-first-time-in-history/"><p class="featured-title">Bangkok Amazing Love Festival</p></a>
+                    <p class="featured-desc">"Held in the Bangkok International Trade & Exhibition Centre (BITEC), the Amazing Love Festival drew 42,000 people over two nights, with more than 79,000 viewing online."</p>
                 </div>
             </div>
-            <a href="#"><%= image_tag "Bangkok.jpg", alt: "alttext" %></a>
+            <a href="https://decisionmagazine.com/bangkok-thailand-churches-unite-for-the-first-time-in-history/"><%= image_tag "Bangkok.jpg", alt: "alttext" %></a>
         </div>
 
         <div class="portfolio-container transition3">
@@ -129,10 +119,22 @@ Built by a team of 4 developers during a 5-day product sprint.</p>
                     <a href="https://decisionmagazine.com/hanoi-festival-a-milestone-for-the-gospel/"><p class="subtitle">Hanoi, Vietnam</p> </a>
 
                     <p class="featured-title">Love Hanoi Festival</p>
-                    <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit sint, molestias qui nihil accusamus praesentium vel tenetur quisquam quas rem.</p>
+                    <p class="featured-desc">"The public gathering of thousands to hear the Gospel message in Vietnam’s capital city Dec. 8-9 was historic, marking the first time a large-scale Christian event has been held in the communist nation and reflecting progress in the government’s relationship with evangelical Christians."</p>
                 </div>
             </div>
             <a href="https://decisionmagazine.com/hanoi-festival-a-milestone-for-the-gospel/"><%= image_tag "hanoi_inside.jpg", alt: "alttext" %></a>
+        </div>
+
+        <div class="portfolio-container transition3">
+            <div class="portfolio-left">
+                <div class="inner">
+                    <a href="https://billygraham.org.au/a-move-of-god-in-myanmar-franklin-graham-festival-draws-170000/"><p class="subtitle">Yangon, Myanmar</p> </a>
+
+                    <a href="https://billygraham.org.au/a-move-of-god-in-myanmar-franklin-graham-festival-draws-170000/"><p class="featured-title">Yangon Love Joy Peace Festival</p></a>
+                    <p class="featured-desc">"As Myanmar’s people have seen expanded freedoms the past few years under the civilian government, Christians have begun to make their voice heard in new ways. Altogether, more than 170,000 in attendance over the three day event."</p>
+                </div>
+            </div>
+            <a href="https://billygraham.org.au/a-move-of-god-in-myanmar-franklin-graham-festival-draws-170000/"><%= image_tag "Myanmar-1.jpg", alt: "alttext" %></a>
         </div>
 
     </section>
