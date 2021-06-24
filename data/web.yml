@@ -1,13 +1,2 @@
-- name: Kyoro
-  image: some_product.png
-  start: "June 2019"
-  end:  "May 2021"
-- name: ConnecTrainer
-  image: other_product.png
-  start: "June 2019"
-  end:  "May 2021"
-- name: MonEase
-  image: other_product.png
-  start: "June 2019"
-  end:  "May 2021"
+
 
