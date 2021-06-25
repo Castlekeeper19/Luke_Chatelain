@@ -4,16 +4,16 @@
         <a href="" class="logo"> Luke Chatelain</a>
         <nav>
           <ul>
-            <li> <a href="#websites-tag">My Sites</a>  </li>
-            <li> <a href="#projects-tag">My Projects</a>  </li>
+            <li> <a href="#websites-tag">SITES</a>  </li>
+            <li> <a href="#projects-tag">PROJECTS</a>  </li>
           </ul>
         </nav>
       </header>
       <div class="social-header">
         <ul>
+          <li> <a href="https://www.linkedin.com/in/luke-jens-chatelain/" target="_blank">  <i class="fab fa-linkedin"></i></a> </li>
           <li> <a href="https://github.com/Castlekeeper19" target="_blank"> <i class="fab fa-github"></i>  </a> </li>
           <li> <a href="https://www.facebook.com/luke.j.chatelain" target="_blank"> <i class="fab fa-facebook"></i> </a> </li>
-          <li> <a href="https://www.linkedin.com/in/luke-jens-chatelain/" target="_blank">  <i class="fab fa-linkedin"></i></a> </li>
         </ul>
       </div>
     </div>
@@ -42,8 +42,7 @@
     <section class="featured">
         <div class="left">
             <div class="inner transition2">
-                <p class="subtitle">About Luke</p>
-                <a href="#" class="featured-title">DesignCourse.com ReDesign</a>
+                <p class="subtitle about">About Luke</p>
 
                 <p class="featured-desc">A globally tested project manager and web developer serving in countries such as Japan, Thailand, Vietnam, Australia and the United Kingdom on projects utilizing traditional and agile methodologies. I now hope to take the skills I've acquired and apply them to the IT field in Japan.</p>
             </div>
@@ -55,39 +54,62 @@
 
 
     <section class="skills">
-          <h1 id="websites-tag">My Websites</h1>
+          <h1 class="subtitle about" id="websites-tag">WEBSITES</h1>
         <div class="skills-container">
             <ul>
                 <li class="transition2">
                     <div class="icon-container one">
-                        <%= image_tag "kyoro.png", alt: "kyoro" %>
+                      <a href="https://kyoro-manager.herokuapp.com/"> <%= image_tag "kyoro.png", alt: "Kyoro" %></a>
                     </div>
-                    <h3 class="skill-title">Kyoro</h3>
+                    <a href="https://kyoro-manager.herokuapp.com/"><h3 class="skill-title">Kyoro</h3></a>
                     <p class="featured-desc skill-desc">Kyoro is a tool that helps managers keep track of their team's engagement level using Slack integration and feedback analysis, so that they can react quickly and meet their team's needs.
 Built by a team of 4 developers during a 10-day product sprint.</p>
+                    <div class="technologies">
+                      <i class="devicon-ruby-plain-wordmark"></i>
+                      <i class="devicon-html5-plain"></i>
+                      <i class="devicon-sass-original"></i>
+                      <i class="devicon-slack-plain"></i>
+                      <i class="devicon-javascript-plain"></i>
+                      <i class="devicon-figma-plain"></i>
+                      <i class="devicon-trello-plain"></i>
+                    </div>
                 </li>
                 <li class="transition2">
                     <div class="icon-container two">
-                        <%= image_tag "connectrainer.png", alt: "Kilt" %>
+                       <a href="https://connectrainer.herokuapp.com/"> <%= image_tag "connectrainer.png", alt: "ConnecTrainer" %></a>
                     </div>
-                    <h3 class="skill-title">ConnecTrainer</h3>
+                    <a href="https://connectrainer.herokuapp.com/"> <h3 class="skill-title">ConnecTrainer</h3></a>
                     <p class="featured-desc skill-desc">ConnecTrainer is a platform where users can book a workout session with a trainer, or become trainers themselves and offer their services to customers.
 
 Built by a team of 4 developers during a 5-day product sprint.</p>
+                    <div class="technologies">
+                      <i class="devicon-ruby-plain-wordmark"></i>
+                      <i class="devicon-html5-plain"></i>
+                      <i class="devicon-sass-original"></i>
+                      <i class="devicon-javascript-plain"></i>
+                      <i class="devicon-figma-plain"></i>
+                      <i class="devicon-trello-plain"></i>
+                    </div>
                 </li>
                 <li class="transition2">
                     <div class="icon-container three">
-                       <%= image_tag "kilt.jpg", alt: "Kilt" %>
+                      <a href="https://monease.herokuapp.com/"> <%= image_tag "monease.png", alt: "MonEase" %> </a>
                     </div>
-                    <h3 class="skill-title">Monease</h3>
-                    <p class="featured-desc skill-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, odit?</p>
+                   <a href="https://monease.herokuapp.com/">  <h3 class="skill-title">Monease</h3> </a>
+                    <p class="featured-desc skill-desc">You work hard for your money, shouldn't your money work hard for you?  MonEase helps new investors learn how to save for the things they want and keep what they earned. A personal passion project, work in progress. </p>
+                    <div class="technologies">
+                      <i class="devicon-ruby-plain-wordmark"></i>
+                      <i class="devicon-html5-plain"></i>
+                      <i class="devicon-sass-original"></i>
+                      <i class="devicon-javascript-plain"></i>
+                    </div>
                 </li>
             </ul>
         </div>
     </section>
 
     <section class="portfolio">
-      <h1 id= "projects-tag">My Projects</h1>
+      <h1 class="subtitle about" id= "projects-tag">PROJECTS</h1>
         <div class="portfolio-container transition3">
             <div class="portfolio-left">
                 <div class="inner">
@@ -137,6 +159,22 @@ Built by a team of 4 developers during a 5-day product sprint.</p>
         </div>
 
     </section>
+
+    <div class="nav-container">
+      <header>
+        <h2 class="logo">CONNECT:</h2>
+
+          <ul>
+            <li> <a href="https://www.linkedin.com/in/luke-jens-chatelain/" target="_blank">  <i class="fab fa-linkedin"></i></a> </li>
+            <li> <a href="https://github.com/Castlekeeper19" target="_blank"> <i class="fab fa-github"></i>  </a> </li>
+            <li> <a href="https://www.facebook.com/luke.j.chatelain" target="_blank"> <i class="fab fa-facebook"></i> </a> </li>
+          </ul>
+
+      </header>
+      <div class="social-header">
+        <h2 class="logo mx-4">>>>  THANK YOU!</h2>
+      </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>

@@ -16,13 +16,16 @@ a {
     text-decoration: none;
 }
 
-i {
-  color: black;
-  font-size: 2em;
-  margin-left: 1em;
-}
+ i {
+    color: black;
+    font-size: 2em;
+    margin-left: 1em;
+  }
+
+
+
 h1 , h2 {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Poppins', arial;
 }
 img {width: 100%;}
 
@@ -54,6 +57,13 @@ header {
         }
     }
 
+}
+
+.social-header {
+
+  i:hover {
+      color: #EB60CA;
+    }
 }
 .social-header, .hero-design {
     display: none;
@@ -120,12 +130,17 @@ section {
     font-size: .85em;
 }
 
+.about {
+  font-size: 2em;
+}
+
 .featured-title {
     color: black;
     font-weight: bold;
     font-size: 1.3em;
     margin-top: -.4em;
     display: block;
+    font-family: 'Poppins', arial;
 }
 
 .featured-desc {
@@ -153,40 +168,41 @@ section {
         place-content: center;
         margin: 0 auto;
 
+        img {
+          width: 200px;
+          margin-bottom: 24px;
+          box-shadow: 0 0 0.3px 1px;
+        }
+
         &.one {
             width: 200px;
-            img {
-              width: 200px;
-              margin-bottom: 24px;
-
-            }
         }
         &.two {
             width: 200px;
-          img {
-            width: 200px;
-            margin-bottom: 24px;
-
-          }
         }
         &.three {
             width: 200px;
-             img {
-            width: 200px;
-
-          }
         }
     }
 
     .skill-title {
         font-weight: bold;
+        margin: 12px 0;
+        font-family: 'Poppins', arial;
+        color: #7450FC;
     }
     .featured-desc {
         margin-bottom: 2em;
     }
 }
 
-
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  i {
+    margin: 8px;
+  }
+}
 
 .portfolio {
     background: #F7F7F7;
@@ -326,21 +342,7 @@ section {
     }
 }
 
-@media only screen and (min-width: 1550px) {
-    header {
-        padding: 2em 2em 2em 20em;
-    }
-    .social-header {
-        padding: 2em 20em 2em 0;
-    }
-    section {
-        padding: 6em 20em 4em 20em;
-    }
-    .hero .content {
-        padding: 9em 20em 6em 20em;
-    }
 
-}
 
 .circle {
     animation: circleAnim 1s infinite alternate-reverse;
