@@ -32,8 +32,7 @@ h1 , h2 {
 img {width: 100%;}
 
 .nav-container {
-    // background: #6700EE;
-    background: #048BA8;
+    background: #263547;
 
     a, i {
         color: white;
@@ -41,15 +40,17 @@ img {width: 100%;}
 
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: space-between;
     padding: 2em;
 
     .logo {
-        color: #00F7FF;
+        // color: #00F7FF;
+        color: #F09F2D;
         font-weight: bold;
         font-size: 2em;
+        text-decoration: none;
     }
 
     ul {
@@ -60,6 +61,11 @@ header {
             padding: 0 1em;
             font-size: 1.5em;
             margin-top: .3em;
+        }
+
+        a:hover, i:hover {
+          color: #F09F2D;
+          text-decoration: none;
         }
     }
 
@@ -72,7 +78,7 @@ header {
   }
 
   i:hover {
-      color: #EB60CA;
+      color: #048BA8;
     }
 }
 .social-header, .hero-design {
@@ -101,10 +107,6 @@ header {
     }
 }
 
-.scroll {
-    width: 30px;
-    margin-top: 2em;
-}
 
 .portrait {
   height: 25em;
@@ -127,9 +129,8 @@ section {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    // background: #E5D5FA;
     background: #F4B966;
-    top: 0;
+    top: -30px;
     left: 0;
     z-index: -1;
 }
@@ -141,8 +142,7 @@ section {
 .subtitle {
     text-transform: uppercase;
     font-weight: bold;
-    // color:  #6E00FF;
-    color:  #F09F2D;
+    color:  #263547;
     letter-spacing: .2em;
     font-size: .85em;
 }
@@ -170,7 +170,7 @@ section {
 
 .skills {
     // background: #FF64CB;
-    background: #26C4CF;
+    background: #F09F2D;
 }
 
 .skills-container ul li {
@@ -209,7 +209,8 @@ section {
         font-weight: bold;
         margin: 12px 0;
         font-family: 'Poppins', arial;
-        color: #7450FC;
+        color: #263547;
+        text-decoration: none;
     }
     .featured-desc {
         margin-bottom: 2em;
@@ -285,12 +286,12 @@ section {
         grid-template-columns: 66% auto;
         background: unset;
 
-        header {
+        header, footer {
             // background:  #6700EE;
             background: #263547;
         }
     }
-    header {
+    header, footer {
         padding: 2em 2em 2em 4em;
     }
     .social-header {
@@ -298,6 +299,10 @@ section {
     }
     section {
         padding: 4em;
+    }
+
+    footer {
+      border-radius: 0 1em 0 0;
     }
 
     .social-header {
@@ -364,7 +369,7 @@ section {
 }
 
 @media only screen and (min-width: 1250px) {
-    header {
+    header, footer {
         padding: 2em 2em 2em 10em;
     }
     .social-header {
