@@ -16,13 +16,15 @@ a {
     text-decoration: none;
 }
 
- i {
-    color: black;
-    font-size: 2em;
-    margin-left: 1em;
-  }
+i {
+  color: black;
+  font-size: 2em;
+  margin-left: 1em;
+}
 
-
+img {
+  border-radius: 1em;
+}
 
 h1 , h2 {
   font-family: 'Poppins', arial;
@@ -30,11 +32,13 @@ h1 , h2 {
 img {width: 100%;}
 
 .nav-container {
-    background: #6700EE;
+    // background: #6700EE;
+    background: #048BA8;
 
-    a {
+    a, i {
         color: white;
     }
+
 }
 
 header {
@@ -63,6 +67,10 @@ header {
 
 .social-header {
 
+  i {
+    color: black;
+  }
+
   i:hover {
       color: #EB60CA;
     }
@@ -72,7 +80,8 @@ header {
 }
 
 .hero {
-    background: #6E00FF;
+    // background: #6E00FF;
+    background: #048BA8;
     color: white;
     display: grid;
     text-align: center;
@@ -118,7 +127,8 @@ section {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #E5D5FA;
+    // background: #E5D5FA;
+    background: #F4B966;
     top: 0;
     left: 0;
     z-index: -1;
@@ -131,7 +141,8 @@ section {
 .subtitle {
     text-transform: uppercase;
     font-weight: bold;
-    color:  #6E00FF;
+    // color:  #6E00FF;
+    color:  #F09F2D;
     letter-spacing: .2em;
     font-size: .85em;
 }
@@ -158,7 +169,8 @@ section {
 }
 
 .skills {
-    background: #FF64CB;
+    // background: #FF64CB;
+    background: #26C4CF;
 }
 
 .skills-container ul li {
@@ -274,7 +286,8 @@ section {
         background: unset;
 
         header {
-            background:  #6700EE;
+            // background:  #6700EE;
+            background: #263547;
         }
     }
     header {
@@ -309,9 +322,11 @@ section {
         padding: 0;
 
         .content {
-            background: #6E00FF;
+            // background: #6E00FF;
+            background: #048BA8;
             padding: 6em 8em 6em 4em;
             text-align: left;
+            border-radius: 0 0 1em 0;
 
             h1 {
                 font-size: 3em;
