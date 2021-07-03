@@ -1,6 +1,6 @@
 header, footer {
-    display: flex;
-    justify-content: space-between;
+    // display: flex;
+    // justify-content: space-between;
     padding: 2em;
 
     .logo {
@@ -29,8 +29,9 @@ header, footer {
 
 }
 
-footer h2 {
+footer .logo {
   padding-top: 0.5em;
+  display: none;
 }
 
 header ul {
@@ -56,6 +57,10 @@ header ul {
   i:hover {
       color: #048BA8;
     }
+
+  h2 {
+    padding-top: 0.4em;
+  }
 }
 .social-header, .hero-design {
     display: none;

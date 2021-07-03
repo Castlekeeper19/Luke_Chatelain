@@ -50,6 +50,10 @@ section {
     justify-content: space-between;
   }
 
+  footer .logo {
+    display: block;
+  }
+
   header ul {
         display: flex;
 
@@ -193,7 +197,6 @@ section {
           margin-bottom: 24px;
           top: -50px;
           right: -50px;
-          border-radius: .25em;
 
         }
       }
