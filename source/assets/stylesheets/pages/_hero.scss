@@ -9,6 +9,10 @@
 .portrait {
   object-fit: cover;
   border-radius: 1em;
-  width: 19em;
-  height: 19em;
+
+}
+
+.content p {
+  font-size: 2em;
+  font-family: 'Poppins', arial;
 }
