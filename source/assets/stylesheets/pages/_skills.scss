@@ -1,0 +1,54 @@
+.skills {
+    background: #F09F2D;
+}
+
+.skills-container ul li {
+
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+
+    .icon-container {
+        height: 100px;
+        display: grid;
+        place-content: center;
+        margin: 0 auto;
+
+        img {
+          margin-bottom: 24px;
+          box-shadow: 0 0 1.4px 0.01px;
+          border: 1px solid rgba(0,0,0,0.2);
+
+        }
+
+        &.one {
+            width: 200px;
+        }
+        &.two {
+            width: 200px;
+        }
+        &.three {
+            width: 200px;
+        }
+    }
+
+    .skill-title {
+        font-weight: bold;
+        margin: 12px 0;
+        font-family: 'Poppins', arial;
+        color: #263547;
+        text-decoration: none;
+    }
+    .featured-desc {
+        margin-bottom: 2em;
+    }
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  i {
+    margin: 8px;
+  }
+}
