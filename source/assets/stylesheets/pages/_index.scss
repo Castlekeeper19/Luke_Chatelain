@@ -9,6 +9,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Poppins', arial;
+    // background: linear-gradient(127deg,rgba(214,214,214,.9), rgba(224,224,224,.9), rgba(234,234,234,.9) 70.71%);
 }
 
 ul {
@@ -136,8 +137,7 @@ header .logo {
         background: unset;
 
         header, footer {
-            // background:  #6700EE;
-            background: #263547;
+            background: linear-gradient(127deg,rgba(28,43,51,.9), rgba(38,53,71,.9), rgba(58,73,81,1));
         }
     }
     header, footer {
@@ -176,8 +176,8 @@ header .logo {
         padding: 0;
 
         .content {
-            // background: #6E00FF;
-            background: #048BA8;
+
+            background: linear-gradient(127deg,rgba(4,119,168,.99), rgba(14,145,178,.99), rgba(24,149,188,.89));
             padding: 6em 8em 6em 4em;
             text-align: left;
             border-radius: 0 0 1em 0;
